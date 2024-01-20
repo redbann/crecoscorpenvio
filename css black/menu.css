@@ -1,0 +1,32 @@
+.escritorio{
+    
+    height: 70px;
+    width: 226px; 
+}
+
+.main-sidebar1{
+    
+    background-image: url(../files/inicio/27751.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    min-height: 100%;
+    width: 230px;
+    z-index: 810;
+    -webkit-transition: -webkit-transform .3s ease-in-out,width .3s ease-in-out;
+    -moz-transition: -moz-transform .3s ease-in-out,width .3s ease-in-out;
+    -o-transition: -o-transform .3s ease-in-out,width .3s ease-in-out;
+    transition: transform .3s ease-in-out,width .3s ease-in-out;
+}
+
+.sidebar-menu1>li{
+     position:relative;
+     margin:0;
+     padding:0}
+     
+
+.sidebar-menu1>li>a{
+padding:12px 5px 12px 15px;
+display:block
+}
